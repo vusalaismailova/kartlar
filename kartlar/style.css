@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'bold';
+    src: url(../kartlar/fonts/DancingScript-Bold.ttf);
+}
+@font-face {
+    font-family: 'medium';
+    src: url(../kartlar/fonts/DancingScript-Medium.ttf);
+}
+@font-face {
+    font-family: 'regular';
+    src: url(../kartlar/fonts/DancingScript-Regular.ttf);
+}
+div.one img{
+    width: 30%;
+}
+
+div.one{
+    background-color: antiquewhite;
+    width: 40%;
+    border-width: 10px;
+    border-color: rgb(218, 132, 27);
+    border-style: groove;
+    float: right;
+    
+    
+}
+ div.one img{
+    opacity: 0;
+    object-fit: cover;
+    opacity: 0;
+    border: 1px solid rgb(60,60,60);
+    transition: all 5s ease;
+}
+div.one img:hover{
+    opacity: 1;
+}
+ 
+div.one a{
+    color: blue;
+   text-decoration: none;
+}
+div.one a:hover{
+text-decoration: underline;
+}
+div.one p{
+    font-family: bold;
+    font-style: normal;
+    font-variant: inherit;
+}
+div.one:visited{
+    color: black;
+}
+div.one:active{
+    font-size: 20px;
+}
+div.two{
+    background-color: rgb(234, 219, 145);
+    width: 40%;
+    height: 300px;
+    border-width: 5px;
+    border-color: rgb(60, 56, 51);
+    border-style: double;
+    float: left;}
+  
+    div.two table{
+        background-image: url(./img/images\ \(1\).jpg);
+        width: 100px;
+    }
+    div.two p{
+        font-family: medium;
+    }
